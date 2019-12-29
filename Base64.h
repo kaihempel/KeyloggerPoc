@@ -6,7 +6,7 @@
 
 namespace Base64
 {
-    const std::string charpool = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+";
+    const std::string CHARPOOL = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/+";
 
     std::string encode(const std::string &);
 }

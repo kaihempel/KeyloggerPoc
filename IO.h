@@ -11,8 +11,14 @@
 
 namespace IO
 {
-    std::string getOurPath(const bool append_separator = false);
+    std::string getOurPath(const bool append_separator);
 
+    bool mkOneDir(std::string path);
+
+    bool mkDir(std::string path);
+
+    template <class T>
+    std::string writeLog(const T &message);
 }
 
 #endif // IO_H

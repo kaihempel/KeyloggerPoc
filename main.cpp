@@ -4,6 +4,7 @@
 #include "KeyConstants.h"
 #include "Helper.h"
 #include "IO.h"
+#include "Timer.h"
 
 using namespace std;
 
